@@ -25,6 +25,11 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    background-image: url('../images/hero-code.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
     Z-index: 9999;
 }
 
@@ -58,6 +63,7 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.3vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: var(--second-color);
 }
 /* Header End */
 
@@ -108,7 +114,49 @@ footer h2 {
 .hero-set p {
     font-style: italic;
     font-size: 20px;
-    color: var(--first-color);
+    color: var(--second-color);
     padding: 10px 40px;
     text-align-last: right;
 }
+
+/*Sections*/
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    background: var(--second-color);
+    
+}
+
+.about img {
+    max-width: 100%;
+    padding: 5px 10px 5px 10px;
+}
+
+.about-img {
+    flex-basis: 70%;
+}
+
+.about-text {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    
+}
+
+.about-text h2 {
+    color: var(--first-color);
+    font-size: 35px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding-top: 15px;
+
+}
+
+.about-text p {
+    color: var(--third-color);
+    font-size: 17px;
+}
+
+
