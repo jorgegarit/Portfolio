@@ -351,3 +351,132 @@ footer h2 {
 }
 
 /* Contact Me Section End */
+
+/* Media Query */
+
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 16px;
+    }
+
+    footer h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero {
+        margin-bottom: 0;
+    }
+
+    .hero-set h2, .hero-set p {
+        text-align: center;
+        padding: 10px 40px 10px 40px;
+    }
+
+    .section-title, .section-title-2 {
+        width: 80%;
+        text-align: center;
+    }
+
+    .container {
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 100%;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .about-me {
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .about-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-img img {
+        padding: 20px 40px 15px 40px;
+    }
+
+    .img-container {
+        display: flex;
+        flex: 1 100%;
+        width: 100%;
+        min-width: auto;
+        margin: 5px;
+        padding: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-set p {
+        margin: auto;
+        width: 60%;
+        padding: 20px;
+    }
+
+    .run-buddy {
+        background-size: cover;
+        background-position: top left;
+    }
+}
+
+@media screen and (max-width: 575px ) {
+    .section-title, .section-title-2 {
+        font-size: 26px;
+    }
+
+    footer h2 {
+        font-size: 18px;
+    }
+
+    header nav ul {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    header nav ul li a {
+        font-size: 15px;
+        padding: 7px;
+    }
+
+    .hero-set h2 {
+        font-size: 40px;
+    }
+
+    .hero-set p {
+        width: 65%;
+        font-size: 15px;
+    }
+
+    .contact-me p {
+        font-size: 15px;
+    }
+
+    .run-buddy {
+        background-position: top center;
+    }
+}
