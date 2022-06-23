@@ -171,5 +171,93 @@ footer h2 {
     background-color: var(--first-color);
 }
 
+.container {
+    margin: 100px auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work-one {
+    flex: 1 100%;
+    border: 3px solid var(--third-color);
+    position: relative;
+    display: inline-block;
+    padding: 0 30px;
+    margin-bottom: 15px;
+}
+
+.work-one img {
+    max-width: 100%;
+    display: block;
+}
+
+.work-one a {
+    flex: 0 0 50%;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+}
+
+.work-next {
+    flex: 1 50%;
+    border: 3px solid var(--third-color);
+    position: relative;
+    display: inline-block;
+    padding: 0 30px;
+    margin-bottom: 10px;
+}
+
+.text {
+    position: relative;
+    top: 70%;
+}
+
+.run-buddy {
+    background-image: url("../images/run-buddy.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 400px; 
+}
+
+.horiseon {
+    background-image: url("../images/horiseon.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.placeholder-1 {
+    background-image: url("../images/placeholder-1.jpg");
+    background-size: 150px 100px;
+    height: 200px;
+    width: 200px;
+    background-position: center;
+}
+
+.placeholder-2 {
+    background-image: url("../images/placeholder-2.jpg");
+    background-size: 100px 100px;
+    height: 200px;
+    width: 200px;
+    background-position: center;
+}
+
+.placeholder-3 {
+    background-image: url("../images/placeholder-3.jpg");
+    background-size: 100px 100px;
+    height: 200px;
+    width: 200px;
+    background-position: center;
+}
+
+
 
 
