@@ -250,12 +250,12 @@ footer h2 {
     width: 200px;
 }
 
-.placeholder-1 {
-    background-image: url("../images/placeholder-1.jpg");
-    background-size: 150px 100px;
+.brainy-recipes {
+    background-image: url("../images/brainy-recipes.png");
+    background-size: cover;
     height: 200px;
     width: 200px;
-    background-position: center;
+    background-position: top;
 }
 
 .placeholder-2 {
