@@ -270,8 +270,8 @@ footer h2 a:hover {
     background-position: top;
 }
 
-.workday-scheduler {
-    background-image: url("../images/workday-scheduler.jpg");
+.journify {
+    background-image: url("../images/journify.jpg");
     background-size: cover;
     height: 200px;
     width: 200px;
