@@ -1,147 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTC-8" />
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="./assets/css/style.css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Portfolio</title>
+    <meta name="description" content="Portfolio Template for Developer" />
 
-    <body>
-        <!--Navigation-->
-        <header>
-            <h1>
-                <a href="/" target="_blank">JORGE GARIT</a>
-            </h1>
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-            <nav>
-                <!--Unorder list element-->
-                <ul>
-                    <!--list items-->
-                    <li>
-                        <!--Anchor elements-->
-                        <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#my-work">My Work</a>
-                    </li>
-                    <li>
-                        <a href="#contact-me">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="#resume">Resume</a>
-                    </li>
-                </ul>
-            </nav>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/jorge.png"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Jorge Garit</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About Me </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Reach Out </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
 
-        </header>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About Me </a>
+            </li>
 
-        <!--Hero-->
-        <section class="hero">
-            <div class="hero-set">
-                <h2>The Life Of A Developer</h2>
-                <p>
-                    “Code is like humor. When you have to explain it, it's bad.” 
-                    <br />
-                    -Cory House
-                </p>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Applications </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Reach Out </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hi, I'm Jorge Garit  </h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            Code is like humor, when you have to explain it, it's bad.
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="https://jorgegarit.github.io/Portfolio/assets/resume/Jorge_Garit_Resume.pdf" target="_blank" class="btn btn--bg">Resume</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/jorgegarit/" target="_blank" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/jorgegarit" target="_blank" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://www.instagram.com/jorge.garit/?hl=en" target="_blank"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          >
+            <img
+              src="./assets/png/insta-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">A little about myself:</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+               Hello, I am a current tech support specilist who is looking to dive head first into the world of software development. I am passionate 
+               about developing sites that are cutting-edge, beautiful, accessible, engaging and easy to use. I currently enjoy working with JavaScript,
+               MySQL, ReactJS, and Node.js. I am continuing to craft my skills with this programs so that I can reach my goal of becoming a successful
+               software developer. 
+              </p>
+              <p class="about__content-details-para">
+              Besides software development I have many other passions. On my free time, when I am not with friends and family, I enjoy building complex 
+              LEGO sets, reading fantasy novels, playing an absurd amount of board games, and consuming basketball in all possible forms. I currently 
+              host an extremely competive fantasy basketball league, and even though I have not won once, in nearly a decade, I am still not giving up. 
+              </p>
             </div>
-        </section>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Reach Out</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">Node.js</div>
+              <div class="skills__skill">Express.js</div>
+              <div class="skills__skill">MySQL</div>
+              <div class="skills__skill">Sequelize</div>
+              <div class="skills__skill">GIT</div>
+              <div class="skills__skill">MVC</div>
+              <div class="skills__skill">Linux/Unix</div>
+              <div class="skills__skill">Third-Party APIs</div>
+              <div class="skills__skill">Server-Side APIs</div>
+              <div class="skills__skill">ORM</div>
+              <div class="skills__skill">Bootstrap</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            Below are some of the current projects/application I am either working on or have already completed.
+          </span>
+        </h2>
 
-        <!--About Me Section-->
-        <section id="about-me" class="about">
-            <div class="flex-row">
-                <h2 class="section-title">About Me</h2>
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/Journify.jpg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
             </div>
-            <div class="container">
-                <div class="about-me">
-                    <p>
-                        I am a full stack developer just looking to get his sea legs and dive right into the world of web development. My expertise lies in front end development. I am passionate about
-                        developing sites that are cutting-edge, beautiful, engaging and easy to use. 
-                    </p>
-                    <div class="about-img">
-                        <img src="./assets/images/me.jpg" alt="A picture of Jorge Garit profile while smiling in a serene location with a river and mountains in the background" />
-                    </div>    
-                    
-                </div>
-            </div>     
-        </section>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Journify</h3>
+              <p class="projects__row-content-desc">
+                Journify provides users the ability to create photo journals. Unlike, other photo album creation applications,
+                the main focus of journify is <strong>privacy</strong>. </br></br>
 
-        <!--My Work Section-->
-        <section id="my-work" class="work">
-            <div class="flex-row">
-                <h2 class="section-title-2">My Work</h2>
-            </div>
-            <!--Container Start-->
-            <div class="container">
-                <!--Img Container Start-->
-                <div class="img-container">
-                    <!--Run Buddy-->
-                    <div class="work-one run-buddy">
-                        <a href="https://jorgegarit.github.io/run-buddy/" target="_blank"></a>
-                        <div class="text">
-                            <h3>Run Buddy</h3>
-                            <p>HTML/CSS</p>
-                        </div>
-                    </div>
-                    <!--Horiseon-->
-                    <div class="work-next horiseon">
-                        <a href="https://jorgegarit.github.io/challenge-1/" target="_blank"></a>
-                        <div class="text">
-                            <h3>Horiseon</h3>
-                            <p>HTML/CSS</p>
-                        </div> 
-                    </div>
-                    <!--Brainy Recipes-->
-                    <div class="work-next brainy-recipes">
-                        <a href="https://jorgegarit.github.io/brainy-badgers-jg/" target="_blank"></a>
-                        <div class="text">
-                            <h3>Brainy Recipes</h3>
-                            <p>JavaScript/API</p>
-                        </div>
-                    </div>
-                    <!--Journify-->
-                    <div class="work-next journify">
-                        <a href="https://salty-forest-28898.herokuapp.com/login" target="_blank"></a>
-                        <div class="text">
-                            <h3>Journify</h3>
-                            <p>Express/Mysql/Handlebars</p>
-                        </div>
-                    </div>
-                    <!--ReadMe Generator-->
-                    <div class="work-next readme-generator">
-                        <a href="https://github.com/jorgegarit/readme-generator" target="_blank"></a>
-                        <div class="text">
-                            <h3>README Generator</h3>
-                            <p>Node.js/JavaScript</p>
-                        </div>
-                    </div>
-                    
-                </div>
-                <!--Image Container End-->
-            </div>
-            <!--Class Container End-->
-        </section>
-        <!--My Work Section End-->
+                <strong>Tools Used:</strong> HTML, CSS, Javascript, HandleBars, MySQL, Heroku, Express.js 
 
-        <!--Contact Me Section Start-->
-        <section id="contact-me" class="contact">
-            <div class="flex-row">
-                <h2 class="section-title">Contact Me</h2>
+              </p>
+              <a href="https://salty-forest-28898.herokuapp.com/login" class="btn btn--med btn--theme dynamicBgClr" target="_blank">App Link</a> </br>
+              <a href="https://github.com/jorgegarit/ice-blazers" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Code Link</a>
             </div>
-            <div class="container">
-                <div class="contact-me">
-                    <p>Phone: <a href="tel:407.558.5592">(407) 558-5592</a></p>
-                    <p>Email: <a href="mailto:jorgegarit@gmail.com">jorgegarit@gmail.com</a></p>
-                    <p><a href="https://www.linkedin.com/in/jorgegarit/" target="_blank">Linkedin Account</a></p>
-                    <p><a href="https://github.com/jorgegarit" target="_blank">Github Account</a></p>
-                </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/brainy-recipes.jpg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
             </div>
-        </section>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Brainy Recipes</h3>
+              <p class="projects__row-content-desc">
+                Brainy Recipes provides users the ability to search for either a recipe or a cocktail based on their input. 
+                They can also add ingedients to a grocery list. </br></br>
 
-        <!--footer-->
-        <footer id="resume">
-            <h2><a href="./assets/resume/Jorge_Garit_Resume.pdf" target="_blank">Jorge Garit's Resume 🤓</a></h2>
-        </footer> 
-    </body>
+                <strong>Tools Used:</strong> HTML, CSS, Javascript, Third-Party APIs, Server-Side APIs
+              </p>
+              <a href="https://jorgegarit.github.io/brainy-badgers-jg/" class="btn btn--med btn--theme dynamicBgClr" target="_blank">App Link</a> </br>
+              <a href="https://github.com/jorgegarit/brainy-badgers-jg" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Code Link</a>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/readme.jpg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">README.md Generator </h3>
+              <p class="projects__row-content-desc">
+              Using node.js users will be prompted a series of questions that will be used to generate a README.md file. With this generator developers
+              can reduce their workload by not having to create a README.md file for every project.  </br></br>
+
+                <strong>Tools Used:</strong> Javascript, Node.js 
+              </p>
+              <a href="https://watch.screencastify.com/v/2zQfjb4KyWEDoOBxOjqn" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Example Video Link</a> </br>
+              <a href="https://github.com/jorgegarit/readme-generator" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Code Link</a>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/scheduler.jpg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Work Day Scheduler</h3>
+              <p class="projects__row-content-desc">
+                Work Day Scheduler allows users to schedule upcoming workday events, the users will be notified when
+                a scheduled event is nearing as well as when it has passed.  </br></br>
+
+                <strong>Tools Used:</strong> HTML, CSS, Javascript, Third-Party APIs
+              </p>
+              <a href="https://jorgegarit.github.io/work-day-scheduler/" class="btn btn--med btn--theme dynamicBgClr" target="_blank">App Link</a> </br>
+              <a href="https://github.com/jorgegarit/work-day-scheduler" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Code Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Reach Out</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Please fill out the form below and I will get back to you at my earliest convenience. 
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="https://formsubmit.co/jorgegarit@gmail.com" method="POST" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="./index.js"></script>
+  </body>
 </html>
