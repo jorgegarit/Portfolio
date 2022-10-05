@@ -25,7 +25,7 @@ At the current moment while the resume otation does exist in the header, there i
 The footer includes a note about Jorge Garit being who designed this page
 
 # Screenshot of Portfolio Site
-![Complete Screenshot of the entire Jorge Garit Portfolio webpage](./assets/images/portfolio-screenshot.png)
+![Complete Screenshot of the entire Jorge Garit Portfolio webpage](./assets/png/application.png)
 
 # URL of Deplyed Website
 Click [here](https://jorgegarit.github.io/Portfolio/) to view my deployed application. 
